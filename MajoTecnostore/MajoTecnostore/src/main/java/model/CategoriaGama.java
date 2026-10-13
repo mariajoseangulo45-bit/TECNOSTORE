@@ -1,13 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-/**
- *
- * @author maria
- */
-public class CategoriaGama {
-    
+public enum CategoriaGama {
+
+    BAJA("Baja"),
+    MEDIA("Media"),
+    ALTA("Alta");
+
+    private final String nombre;
+
+    CategoriaGama(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public static CategoriaGama desdeNombre(String nombre) {
+        for (CategoriaGama g : values()) {
+            if (g.nombre.equalsIgnoreCase(nombre)) {
+                return g;
+            }
+        }
+        throw new IllegalArgumentException("Gama no valida: " + nombre);
+    }
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
 }
