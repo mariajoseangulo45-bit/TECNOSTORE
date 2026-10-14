@@ -4,6 +4,8 @@
 
 package com.mycompany.majotecnostore;
 
+import controller.GestionGeneral;
+
 /**
  *
  * @author maria
@@ -11,6 +13,7 @@ package com.mycompany.majotecnostore;
 public class MajoTecnostore {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        GestionGeneral g = new GestionGeneral();
+        g.menuGeneral();
     }
 }

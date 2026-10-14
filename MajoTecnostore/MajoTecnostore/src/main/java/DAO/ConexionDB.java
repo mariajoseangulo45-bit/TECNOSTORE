@@ -4,8 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-// Patron Singleton: una unica instancia que conoce los datos de conexion.
-// Cada llamada a conexion() entrega una Connection nueva para usarla con try-with-resources.
+
 public class ConexionDB {
 
     private static ConexionDB instancia;
