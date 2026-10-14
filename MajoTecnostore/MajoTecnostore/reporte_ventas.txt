@@ -1,0 +1,26 @@
+REPORTE DE VENTAS - TECNOSTORE
+======================================================
+Venta #1 | 2026-09-20 10:15 | Cliente: Laura Gómez
+   - Samsung Galaxy A15 x2 = $1.299.800,00
+   - Motorola Moto G24 x1 = $549.900,00
+   Total de la venta: $1.849.700,00
+------------------------------------------------------
+Venta #2 | 2026-09-25 15:40 | Cliente: Carlos Pérez
+   - Apple iPhone 15 Pro x1 = $4.999.900,00
+   Total de la venta: $4.999.900,00
+------------------------------------------------------
+Venta #3 | 2026-10-02 11:05 | Cliente: Andrea Rojas
+   - Xiaomi Redmi Note 13 x3 = $3.089.700,00
+   - Honor X7b x1 = $749.900,00
+   Total de la venta: $3.839.600,00
+------------------------------------------------------
+Venta #4 | 2026-10-05 17:30 | Cliente: Julián Torres
+   - Apple iPhone 13 x1 = $2.799.900,00
+   Total de la venta: $2.799.900,00
+------------------------------------------------------
+Venta #5 | 2026-10-10 10:30 | Cliente: Laura Gómez
+   - Google Pixel 8 x3 = $8.549.700,00
+   Total de la venta: $10.174.143,00
+------------------------------------------------------
+Ventas realizadas: 5
+Total vendido: $23.663.243,00
