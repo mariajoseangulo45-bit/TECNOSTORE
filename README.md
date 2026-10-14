@@ -1,9 +1,9 @@
 
-# 1. Descripción del proyecto
+# 1. Descripción del proyecto 💻💸
 
 TecnoStore permite gestionar el día a día de una tienda de celulares desde un menú de consola, está pensado para ser usado por el vendedor, el cual va registrando las ventas.
 
-## Funcionalidades
+## 📌Funcionalidades
 
 - **Celulares:** Permite registrar, listar, actualizar y eliminar el celular. Cada celular tiene marca, modelo, sistema operativo, gama Baja, Media o Alta, tres precios unitario, por mayor y especial los cuales no deben superar el precio unitario, y stock. Se valida que los precios sean mayores a 0 y que el stock no sea negativo, sin embargo el stock si puede ser 0.
 - **Clientes:** Permite registrar, listar, actualizar y eliminar los clientes. Se valida el formato del correo "ejemplo@correo.com", valida tipos de documento comon CC, TI, CE, PA, al tener varias opciones de identificación permite el ingreso de letras y numero pero una cantidad limitada. Así mismo, valida la identificación y el correo no estén repetidos entre clientes.
@@ -14,7 +14,7 @@ TecnoStore permite gestionar el día a día de una tienda de celulares desde un 
   - Ventas totales por mes.
   - Archivo `reporte_ventas.txt` con el resumen de todas las ventas.
 
-## Patrones y principios aplicados
+## 🛠️Patrones y principios aplicados
 
 | Concepto | Dónde |
 |---|---|
@@ -90,8 +90,13 @@ MajoTecnostore
 - `auditoria_celular`
 
 
-## 4. Galeria proyecto funcional
+## 📸4. Galeria proyecto funcional
 ![Menú principal de TecnoStore](MajoTecnostore/imagenes/main.png)
+![Menú celulares](MajoTecnostore/imagenes/ingresarcelular.png)
+![Menú celulares](MajoTecnostore/imagenes/ingresarcelular1.png)
+![Menú cliente](MajoTecnostore/imagenes/cliente.png)
+![Menú venta](MajoTecnostore/imagenes/venta.png)
+
 
 
 ---
